@@ -11,7 +11,7 @@ spec:
   # Source: argo-apps/ folder din acest repo
   source:
     repoURL: https://github.com/nimigeanconstantinion/microserv-sync-gitops.git
-    targetRevision: main
+    targetRevision: master
     path: argo-apps
     directory:
       recurse: false   # nu intra în sub-directoare
