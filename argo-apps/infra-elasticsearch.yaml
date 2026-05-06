@@ -13,7 +13,7 @@ spec:
   # Single-source: aplicăm direct manifestele YAML din repo (nu chart Helm)
   source:
     repoURL: https://github.com/nimigeanconstantinion/microserv-sync-gitops.git
-    targetRevision: main
+    targetRevision: master
     path: infra/elasticsearch
 
   destination:
