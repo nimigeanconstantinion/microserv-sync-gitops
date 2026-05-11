@@ -1,0 +1,15 @@
+apiVersion: grafana.integreatly.org/v1beta1
+kind: GrafanaDashboard
+metadata:
+  name: k8s-pods
+  namespace: monitoring
+spec:
+  instanceSelector:
+    matchLabels:
+      dashboards: "grafana"
+
+  # Kubernetes Pods (ID 6417) — CPU/RAM/Network per pod
+  url: https://grafana.com/api/dashboards/6417/revisions/latest/download
+
+  folder: "Kubernetes"
+  resyncPeriod: 24h

@@ -1,0 +1,15 @@
+apiVersion: grafana.integreatly.org/v1beta1
+kind: GrafanaDashboard
+metadata:
+  name: k8s-cluster-overview
+  namespace: monitoring
+spec:
+  instanceSelector:
+    matchLabels:
+      dashboards: "grafana"
+
+  # Kubernetes Cluster Monitoring (via Prometheus) — ID 7249
+  url: https://grafana.com/api/dashboards/7249/revisions/latest/download
+
+  folder: "Kubernetes"
+  resyncPeriod: 24h

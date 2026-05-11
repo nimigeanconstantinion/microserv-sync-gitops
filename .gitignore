@@ -16,6 +16,7 @@ charts/
 secret.yaml
 secret-*.yaml
 secrets.yaml
+*-RAW.yaml
 .env
 .env.*
 !*-sealed-secret.yaml
