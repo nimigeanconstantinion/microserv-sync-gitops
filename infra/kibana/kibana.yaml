@@ -15,6 +15,8 @@ spec:
     telemetry.optIn: false
     xpack.banners.placement: "top"
     xpack.banners.textContent: "Kibana on ctin (server2)"
+    # URL extern prin care e accesat Kibana (necesar pentru link-uri interne corecte)
+    server.publicBaseUrl: "https://kibana.icode.mywire.org"
 
   podTemplate:
     metadata:
