@@ -12,5 +12,9 @@ spec:
   # Necesită ServiceMonitor pe microservicii + actuator/prometheus expus (când vor veni aplicațiile)
   url: https://grafana.com/api/dashboards/10280/revisions/latest/download
 
+  datasources:
+    - inputName: "DS_PROMETHEUS"
+      datasourceName: "Prometheus"
+
   folder: "Applications"
   resyncPeriod: 24h

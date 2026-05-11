@@ -11,5 +11,9 @@ spec:
   # Kubernetes Views - Global (ID 15757) — overview cluster modern, compatibil kube-prometheus-stack
   url: https://grafana.com/api/dashboards/15757/revisions/latest/download
 
+  datasources:
+    - inputName: "DS_PROMETHEUS"
+      datasourceName: "Prometheus"
+
   folder: "Kubernetes"
   resyncPeriod: 24h
