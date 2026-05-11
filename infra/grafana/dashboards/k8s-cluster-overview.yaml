@@ -8,8 +8,8 @@ spec:
     matchLabels:
       dashboards: "grafana"
 
-  # Kubernetes Cluster Monitoring (via Prometheus) — ID 7249
-  url: https://grafana.com/api/dashboards/7249/revisions/latest/download
+  # Kubernetes Views - Global (ID 15757) — overview cluster modern, compatibil kube-prometheus-stack
+  url: https://grafana.com/api/dashboards/15757/revisions/latest/download
 
   folder: "Kubernetes"
   resyncPeriod: 24h

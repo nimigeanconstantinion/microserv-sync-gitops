@@ -8,8 +8,8 @@ spec:
     matchLabels:
       dashboards: "grafana"
 
-  # Kubernetes Pods (ID 6417) — CPU/RAM/Network per pod
-  url: https://grafana.com/api/dashboards/6417/revisions/latest/download
+  # Kubernetes Views - Pods (ID 15759) — pods per namespace, modern, compatibil kube-prometheus-stack
+  url: https://grafana.com/api/dashboards/15759/revisions/latest/download
 
   folder: "Kubernetes"
   resyncPeriod: 24h
